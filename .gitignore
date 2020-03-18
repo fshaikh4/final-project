@@ -1,0 +1,5 @@
+# macOS files
+.DS_Store
+
+# ipynb checkpoints dir (stores notebook version history)
+.ipynb_checkpoints
