@@ -1,0 +1,11 @@
+name: tf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - tensorflow
+  - jupyterlab
+  - pandas
+  - matplotlib
+prefix: /Users/shaikhf2/anaconda3/envs/tf
+
