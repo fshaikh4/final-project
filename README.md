@@ -27,7 +27,7 @@
 
 #### Setup containerized workspace
 
-A Singularity recipe file (``) was generated via [Neurodocker](https://hub.docker.com/r/repronim/neurodocker/) with all relevant required software for this project. Please ensure you have [Singularity](https://sylabs.io/about-us) installed to initialize and work inside of the container.
+A Singularity recipe file (`biof509.final`) was generated via [Neurodocker](https://hub.docker.com/r/repronim/neurodocker/) with all relevant required software for this project. Please ensure you have [Singularity](https://sylabs.io/about-us) installed to initialize and work inside of the container.
 
 The Singularity recipe file was compiled into the Singularity container via [SingularityHub](https://singularityhub.org/) [[more information here](https://singularityhub.github.io/singularityhub-docs/docs/introduction)].
 
@@ -89,7 +89,7 @@ Due to the nature of the task (regression) and the nature of predictions (a pred
 
 #### Na&iuml;ve model
 
-To have a reference point of comparison against the sophisticated multi-input deep learning model against, I first ran all non-image predictors through a regularized elastic net regression with hyperparameters tuned via grid search.
+To have a reference point of comparison against the sophisticated multi-input deep learning model against, I first ran all non-image predictors through a regularized elastic net regression with hyperparameters tuned via grid search. The model yielded the following results.s
 
 ## Network architecture
 
