@@ -89,7 +89,7 @@ Due to the nature of the task (regression) and the nature of predictions (a pred
 
 #### Na&iuml;ve model
 
-To have a reference point of comparison against the sophisticated multi-input deep learning model against, I first ran all non-image predictors through a regularized elastic net regression with hyperparameters tuned via grid search. The model yielded the following results.s
+To have a reference point of comparison against the sophisticated multi-input deep learning model against, I first ran all non-image predictors through a regularized elastic net regression with hyperparameters tuned via grid search. To clarify, the predictors are as follows: (1) APOE4 carrier status, (2) age, (3) biological sex, (4) years of education. The model yielded results suggesting a **na&iuml;ve MAE of approximately 1 point on the MMSE.**
 
 ## Network architecture
 
